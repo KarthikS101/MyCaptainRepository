@@ -1,0 +1,11 @@
+list1=[2,-4,-12,3,-42,21,33,-23,87]
+PosList=[]
+pos=0
+length=len(list1)
+while pos<length:
+    if list1[pos]>0:
+        PosList.append(list1[pos])
+        pos+=1 
+    else:
+        pos+=1
+print(PosList)
